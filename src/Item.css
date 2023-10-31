@@ -1,0 +1,14 @@
+circle{
+    animation: dashAnimation 2s linear forwards;
+    stroke-dasharray: 440;
+    /* stroke-dashoffset: 100; */
+}
+@keyframes dashAnimation{
+   0%{
+      stroke-dashoffset: 440;
+   }
+   
+   100%{
+    stroke-dashoffset: 100;
+   }
+}
